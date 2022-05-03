@@ -12,9 +12,68 @@
 }
 
 body {
-  background-image: url(/images/bg-hero-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Open Sans", sans-serif;
+
+  font-family: "Open Sans", sans-serif; 
+  font-size: 18px;
+  font-weight: 400;
+  background-color: hsl(193, 100%, 96%);
+}
+.wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  
+}
+.button {
+  border-radius: 2.5em;
+  border:none;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+h1,h2 {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.wrapper img {
+  width: auto;
+  height: 20px;
+}
+.main{
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 90%;
+  text-align: center;
+  margin-top: 100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+img{
+  width: 80vw;
+}
+.title{
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.text {
+
+  line-height: 1.6;
+}
+.header {
+
+}
+/* 
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%) */
