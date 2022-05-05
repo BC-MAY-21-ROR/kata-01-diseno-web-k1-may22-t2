@@ -17,6 +17,7 @@ body {
   font-weight: 400;
 }
 
+/* MOBILE */
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -31,7 +32,7 @@ body {
   border: none;
   font-weight: 700;
 }
-
+/* BUTTONS */
 .button.nav {
   background-color: white;
   color: hsl(192, 100%, 9%);
@@ -52,15 +53,11 @@ body {
   color: white;
   padding: 15px 50px;
 }
-.button:active{
+.button:active {
   cursor: pointer;
   transition: transform 2s ease;
   opacity: 0.5;
 }
-/* .button:hover{
-  cursor: pointer;
-  opacity: 0.5;
-} */
 
 .mockups {
   padding: 40px 0px;
@@ -169,6 +166,7 @@ img {
 }
 
 .suscribe {
+  max-width: 700px;
   text-align: center;
   padding: 36px 0;
   /* border: 2px solid; */
@@ -239,13 +237,28 @@ li {
   margin-right: 15px;
 }
 
-.sm-container{
+.sm-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
 }
+
+.attribution{
+  padding-top:20px;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+
 
 
 /* 

@@ -5,15 +5,18 @@
     padding-right:80px;
     padding-top: 50px;
 }
+
 .wrapper img {
     width: 200px;
     height: auto;
 }
+
 .button.nav{
     width: 200px;
     height: auto;
     font-size: 25px;
 }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -22,15 +25,16 @@
     padding-right: 80px;
 }
 
-
 .info-header {
     width: 50vw;
     text-align: left;
     padding: 150px 20px 100px 0;
 }
+
 .title{
-    font-size: 40px;
+    font-size: 45px;
 }
+
 .info-header p {
     text-align: left;
 }
@@ -38,9 +42,114 @@
 .mockups{
     width: 50vw;
 }
+
 .principal-content{
 
 }
+
+.button:hover {
+    cursor: pointer;
+    transition: transform 2s ease;
+    opacity: 0.5;
+}
+
+.features{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.card{
+    display:flex;
+    flex-direction: row-reverse;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.card.img-mid{
+    flex-direction: row;
+}
+
+.card img{
+    width:25vw;
+    height:auto;
+}
+
+.description{
+    padding:90px 200px 0 0;
+}
+
+.description h2{
+    text-align: left;
+    padding:0;
+    font-size: 30px;
+}
+
+.description p{
+    text-align: left;
+    padding:15px 0 0 0;
+}
+
+.description.mid{
+    padding:90px 0 0 200px;
+}
+
+.suscribe{
+    margin-left: auto;
+    margin-right: auto;
+}
+.subs-h1{
+    font-size:28px;
+}
+
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 80px 100px 80px;
+}
+
+/*Lado izquierdo*/
+.footer-left{
+    flex:1;
+}
+
+.info-user p{
+    font-size:15px;
+}
+
+/*Lado central*/
+.footer-mid{
+    padding-top:25px;
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+ul{
+    column-count: 2;
+    column-gap:100px;
+    font-size:15px;
+}
+
+/*Lado derecho*/
+.footer-right{
+    flex:1;
+    padding-top:50px;
+}
+
+.copyright{
+    display:flex;
+    flex-direction:column;
+}
+
+.attribution{
+    margin-top:115px;
+}
+
+
+
+
 
 
 }
