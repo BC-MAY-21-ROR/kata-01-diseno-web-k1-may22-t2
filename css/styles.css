@@ -61,7 +61,8 @@ body {
   padding: 40px 0px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -152,7 +153,7 @@ img {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  bottom: 90px;
+  bottom: 40px;
 }
 
 .suscribe {
@@ -166,12 +167,12 @@ img {
   left: 5%;
   position: absolute;
   background-color: white;
-  margin: 30px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .subs-h2 {
-  font-size: 32px;
-  padding: 10px;
+  font-size: 19px;
+
   color: hsl(192, 100%, 9%);
 }
 
@@ -231,21 +232,21 @@ li {
   padding: 0px;
 }
 
-.attribution{
-  padding-top:20px;
+.attribution {
+  padding-top: 20px;
 }
 
-a{
-  color:white;
-  text-decoration:none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-a:hover{
-  text-decoration:underline;
+a:hover {
+  text-decoration: underline;
 }
 
 .circle:hover {
-  color:hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
   border: 1px solid hsl(322, 100%, 66%);
-  cursor:pointer;
+  cursor: pointer;
 }
