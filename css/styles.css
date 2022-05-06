@@ -1,5 +1,4 @@
 /*Font - Poppins */
-
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 
 /*Font - Open sans */
@@ -17,7 +16,6 @@ body {
   font-weight: 400;
 }
 
-/* MOBILE */
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -32,7 +30,7 @@ body {
   border: none;
   font-weight: 700;
 }
-/* BUTTONS */
+
 .button.nav {
   background-color: white;
   color: hsl(192, 100%, 9%);
@@ -63,8 +61,7 @@ body {
   padding: 40px 0px;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -122,7 +119,6 @@ img {
 .card {
   text-align: center;
   padding: 36px;
-  /* border: 2px solid; */
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
 }
@@ -147,12 +143,6 @@ img {
   font-size: 18px;
 }
 
-/* Ultimo text
-.text-break {
-  padding: 0 30px;
-}
-*/
-
 .features {
   padding: 54px 16px 0px 16px;
 }
@@ -169,21 +159,18 @@ img {
   max-width: 700px;
   text-align: center;
   padding: 51px 0;
-  /* border: 2px solid; */
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
-  /* margin-bottom: -30px; */
   top: 50%;
   right: 5%;
   left: 5%;
   position: absolute;
-  /* z-index: 2; */
   background-color: white;
   margin: 30px 0 0 0;
 }
 
-.subs-h1 {
-  font-size: 18px;
+.subs-h2 {
+  font-size: 32px;
   padding: 10px;
   color: hsl(192, 100%, 9%);
 }
@@ -192,7 +179,6 @@ img {
   margin-top: 30px;
 }
 
-/*FOOTER */
 .footer {
   background-color: hsl(192, 100%, 9%);
   padding: 150px 20px 20px 20px;
@@ -263,16 +249,3 @@ a:hover{
   border: 1px solid hsl(322, 100%, 66%);
   cursor:pointer;
 }
-
-
-
-/* 
-### Primary
-
-- Pink: hsl(322, 100%, 66%)
-
-### Neutral
-
-- Very Pale Cyan: hsl(193, 100%, 96%)
-- Very Dark Cyan: hsl(192, 100%, 9%)
-- Grayish Blue: hsl(208, 11%, 55%) */
