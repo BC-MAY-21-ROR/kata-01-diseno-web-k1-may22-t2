@@ -258,6 +258,11 @@ a:hover{
   text-decoration:underline;
 }
 
+.circle:hover {
+  color:hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  cursor:pointer;
+}
 
 
 
