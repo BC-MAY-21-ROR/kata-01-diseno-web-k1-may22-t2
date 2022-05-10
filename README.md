@@ -46,7 +46,8 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 - Actualizar la sección **Página Web** con la dirección para el acceso a la página web publicada
 
 ## Página web
-Agrega aquí un enlace a tu página web publicada.
+
+https://raw.githack.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-may22-t2/features/index.html
   
 ## Resources
 
